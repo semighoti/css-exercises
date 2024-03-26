@@ -6,12 +6,17 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  /* my code */
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* my code */
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -20,6 +25,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  /* my code */
 }
 
 .logo {
@@ -27,6 +33,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  /* my code */
 }
 
 button {
@@ -35,14 +42,29 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /* my code */
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  /* my code */
 }
 
 ul {
   list-style-type: none;
+  /* my code */
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+
+  /* my code */
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
